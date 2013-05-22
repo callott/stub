@@ -23,7 +23,7 @@ if ( $options{'version'} ) { version(); exit 0; }
 
 # Print usage message
 sub usage {
-  my $usage = <<END;
+  print <<END;
 
 $EXECUTABLE_NAME - One-line synopsis goes here.
 
@@ -36,7 +36,6 @@ Other Options:
 --version, -v                        Print version string and exit.
 
 END
-  print $usage;
 }
 
 # Print version string
