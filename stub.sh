@@ -6,7 +6,7 @@ PATH=$PATH:/bin
 
 # Set a script name and version string for later use.
 EXECUTABLE_NAME=$(basename $0)
-VERSION="$EXECUTABLE_NAME v0.01 YYYY-MM-DD"
+VERSION="$EXECUTABLE_NAME v0.0.1 YYYY-MM-DD"
 LOCALHOST=$(uname -n | awk -F. '{print $1}')
 
 # Declare some functions.

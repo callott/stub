@@ -8,7 +8,7 @@ use Getopt::Long;
 
 # Version information
 my $EXECUTABLE_NAME = basename( $0 );
-my $VERSION_STRING = $EXECUTABLE_NAME . " v0.01 YYYY-MM-DD\n";
+my $VERSION_STRING = $EXECUTABLE_NAME . " v0.0.1 YYYY-MM-DD\n";
 
 my %options;
 Getopt::Long::Configure ("bundling");
